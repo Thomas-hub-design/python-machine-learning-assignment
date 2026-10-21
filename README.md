@@ -76,7 +76,9 @@ Thomas Ochieng Osollo
    add files(supervised_ml.py and unsupervised_ml.py)
     
    create and activate a virtual environment
+
      code
+
       python3 -m venv venv
 
       venv/Scripts/Activate
@@ -96,13 +98,13 @@ Thomas Ochieng Osollo
 ### 2. Running the code.
    *For supervised machine learning
 
-    run the file(code) in the terminal
+   run the file(code) in the terminal
 
        python supervised_ml.py
 
-    Enter the number of hours when prompted. The program prints the predicted score to 2dp, then opens a graph.
+   Enter the number of hours when prompted. The program prints the predicted score to 2dp, then opens a graph.
 
-    Close the graph window to end the program.
+   Close the graph window to end the program.
 
    *For unsupervised machine learning
     Run the file in the terminal or 
