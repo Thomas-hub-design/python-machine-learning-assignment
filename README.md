@@ -32,13 +32,13 @@ Instructions for installing dependencies and running your code.
     2. Running the code.
         For supervised machine learning
         - run the file(code) in the terminal
-          python unsupervised_ml.py
+        python supervised_ml.py
         -Enter the number of hours when prompted. The program prints the predicted score to 2dp, then opens a graph.
         -Close the graph window to end the program.
         For unsupervised machine learning
         - run the file in the terminal or 
          code
-          python unsupervised_ml.py
+         python unsupervised_ml.py
         -The program prints the cluster assigned to each customer and the number of customers in each cluster, then opens a scatter plot of the groups.
         - Close the plot window to end the program.
 # PART C - THEORY QUESTIONS
