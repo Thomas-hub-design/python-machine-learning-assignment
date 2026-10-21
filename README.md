@@ -1,10 +1,12 @@
 # python-machine-learning-assignment
-## Name. Thomas Ochieng Osollo
+## Name. 
+Thomas Ochieng Osollo
 ## Project title. 
-### Supervised vs Unsupervised Machine Learning
+
+  Supervised vs Unsupervised Machine Learning
 
 ## Description of the supervised learning project.
-   ### File: supervised_ml.py 
+   File: supervised_ml.py 
 
  ## Problem: 
  *** A school wants to predict a student's score in examination score from a number of hours they study.***
@@ -33,7 +35,7 @@
 
 ## Description of the unsupervised learning project.
 
-  ### File: unsupervised_ml.py
+  File: unsupervised_ml.py
   ## Problem:
    A supermarket wants to understand the customers' shopping behaviour by grouping them automatically using monthly spending(KES) and monthly visits.
    ### Dataset
@@ -64,7 +66,7 @@
 ## Instructions for installing dependencies and running your code.
 ### 1. Installing dependencies 
    Open the terminal in the code editor. 
-
+   
    Git clone the Github repository URL for the assignment.
 
    Git code .
@@ -72,8 +74,14 @@
    cd repository name/directory
 
    add files(supervised_ml.py and unsupervised_ml.py)
-
+    
    create and activate a virtual environment
+     code
+      python3 -m venv venv
+
+      venv/Scripts/Activate
+
+     run code
 
    **pip install the dependencies (scikit-learn and Matplotlib)**
 
@@ -83,7 +91,8 @@
 
     pip freeze > requirements.txt 
 
-   *** To view your installed dependencies in the requirements***
+   *Installed libraries version  displayed requirements.txt file
+
 ### 2. Running the code.
    *For supervised machine learning
 
