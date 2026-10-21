@@ -8,7 +8,21 @@
 
  ## Problem: 
  *** A school wants to predict a student's score in examination score from a number of hours they study.***
-## Procedure
+ ### Dataset
+
+ | Hours Studied | Exam Score |
+|---|---|
+| 1 | 30 |
+| 2 | 40 |
+| 3 | 45 |
+| 4 | 55 |
+| 5 | 65 |
+| 6 | 70 |
+| 7 | 80 |
+| 8 | 85 |
+| 9 | 90 |
+| 10 | 95 |
+## Approach
  The dataset has 10 students each with hours studied as input and the exam scores as target
 
  A LinearRegression model from the scikit-learn is trained with fit() to learn the relationship between hours and score.
@@ -22,7 +36,22 @@
   ### File: unsupervised_ml.py
   ## Problem:
    A supermarket wants to understand the customers' shopping behaviour by grouping them automatically using monthly spending(KES) and monthly visits.
-   ## Procedure
+   ### Dataset
+
+   | Customer | Monthly Spending (KES) | Monthly Visits |
+|---|---:|---:|
+| 1 | 1,000 | 2 |
+| 2 | 1,500 | 3 |
+| 3 | 2,000 | 2 |
+| 4 | 5,000 | 6 |
+| 5 | 6,000 | 7 |
+| 6 | 5,500 | 5 |
+| 7 | 12,000 | 12 |
+| 8 | 15,000 | 14 |
+| 9 | 13,000 | 11 |
+| 10 | 3,000 | 4 |
+
+   ## Approach
    The dataset has 10 customers, each with monthly spending and monthly visits(no labels)
 
    StandardScaler scales both features so that spending, which has much largers numbers does not dominate the clustering
