@@ -10,16 +10,17 @@ Y = Exam_scores
 model = LinearRegression()
 #Training the model
 model.fit(X, Y)
+# User input for prediction
+user_hours = float(input("Enter the number of hours studied: "))
 # Making predictions
-predicted_scores = model.predict(X)
+predicted_score= model.predict([[user_hours]])
 # Displaying the predicted scores
-for i, (hours, score) in enumerate(zip(Hours_studied, predicted_scores), start=1):
-    print(f"Student {i}: Hours Studied = {hours[0]}, Predicted Exam Score = {score[0]:.2f}")
+print(f"Predicted Exam Score: {predicted_score[0][0]:.2f}")
 # Visualizing the results
-plt.scatter(Hours_studied, Exam_scores, color='blue', label='Actual Scores')
-plt.plot(Hours_studied, predicted_scores, color='red', label='Regression line')
+plt.scatter(X, Y, color='blue', label='Actual Scores')
+plt.plot(X, model.predict(X), color='red', label='Regression Line')
 plt.xlabel('Hours Studied')
 plt.ylabel('Exam Scores')
-plt.title('Hours Studied vs Exam Scores')
+plt.title('Linear Regression: Hours Studied vs Exam Scores')
 plt.legend()
 plt.show()
