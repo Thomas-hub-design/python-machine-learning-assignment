@@ -47,7 +47,7 @@
    create and activate a virtual environment
 
    **pip install the dependencies (scikit-learn and Matplotlib)**
-   
+
     pip install scikit-learn
 
     pip install matplotlib
@@ -55,38 +55,63 @@
     pip freeze > requirements.txt 
 
    *** To view your installed dependencies in the requirements***
-# 2. Running the code.
-   # For supervised machine learning
-   # - run the file(code) in the terminal
+### 2. Running the code.
+   *For supervised machine learning
+
+    run the file(code) in the terminal
+
        python supervised_ml.py
-   # -Enter the number of hours when prompted. The program prints the predicted score to 2dp, then opens a graph.
-   # -Close the graph window to end the program.
-   # For unsupervised machine learning
-   # - run the file in the terminal or 
-   # code
+
+    Enter the number of hours when prompted. The program prints the predicted score to 2dp, then opens a graph.
+
+    Close the graph window to end the program.
+
+   *For unsupervised machine learning
+    Run the file in the terminal or 
+    code
+
          python unsupervised_ml.py
-   # -The program prints the cluster assigned to each customer and the number of customers in each cluster, then opens a scatter plot of the groups.
-   # - Close the plot window to end the program.
-# PART C - THEORY QUESTIONS
+   
+   The program prints the cluster assigned to each customer and the number of customers in each cluster, then opens a scatter plot of the groups.
 
-# 1. What is supervised machine learning?
-# Supervised machine learning is a machine learning approach that uses labeled data sets
+   Close the plot window to end the program.
 
-# 2. What is unsupervised machine learning?
-# Unsupervised machine learrning is a machine learning approach that uses unlabeled data sets
+## PART C - THEORY QUESTIONS
 
-# 3. Explain the difference between supervised and unsupervised machine learning?
-# Supervised machine learning uses labelled data set; predicts an output through regression and classification; labelled data is trained through a model and tested to predict against known outcomes While unsupervised machine learning uses unlabelled data sets for input; from the data it discovers the pattern in the data set through clustering and association without predefined targets; model is trained using the KMeans algorithm
+### 1. What is supervised machine learning?
 
-# 4. Why is Linear Regression considered supervised learning?
-# Linear regression is considered supervised learning because it  requires labeled output values
+Supervised machine learning is a machine learning approach that uses labeled data sets
 
-# 5. Why is K-Means considered unsupervised learning?
-# K-Means is considered unsupervised learning because the algorithm relies on unlabeled dataset and its prediction of outcomes depends on grouping/clustering of the provided data.
+### 2. What is unsupervised machine learning?
 
-# 6. What is the difference between fit() and predict()?
-# fit() is used for training models while predict() is used for predicting the outcomes from a trained model; used to test the effectiveness of a trained model.
+Unsupervised machine learrning is a machine learning approach that uses unlabeled data sets
 
-# 7. Give two real-world applications of supervised learning and two of unsupervised learning.
-# Supervised machine learning; Email spam detection; price prediction
-# Unsupervised machine learning: Customer segmentation; Anormaly detection in network activity/unusual transactions such as fraud.
+### 3. Explain the difference between supervised and unsupervised machine learning?
+
+Supervised machine learning uses labelled data set; predicts an output through regression and classification; labelled data is trained through a model and tested to predict against known outcomes While unsupervised machine learning uses unlabelled data sets for input; from the data it discovers the pattern in the data set through clustering and association without predefined targets; model is trained using the KMeans algorithm
+
+### 4. Why is Linear Regression considered supervised learning?
+
+Linear regression is considered supervised learning because it  requires labeled output values
+
+### 5. Why is K-Means considered unsupervised learning?
+
+K-Means is considered unsupervised learning because the algorithm relies on unlabeled dataset and its prediction of outcomes depends on grouping/clustering of the provided data.
+
+### 6. What is the difference between fit() and predict()?
+
+*fit()* is used for training models while *predict()* is used for predicting the outcomes from a trained model and used to test the effectiveness of a trained model.
+
+### 7. Give two real-world applications of supervised learning and two of unsupervised learning.
+
+*Application of Supervised machine learning* 
+
+Email spam detection
+
+price prediction
+
+*Application of unsupervised machine learning* 
+
+-Customer segmentation; 
+
+-Anormaly detection in network activity/unusual transactions such as fraud.
