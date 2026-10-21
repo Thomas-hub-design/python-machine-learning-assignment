@@ -31,7 +31,8 @@
    # add files(supervised_ml.py and unsupervised_ml.py)
    # create and activate a virtual environment
    # pip install the dependencies (scikit-learn and Matplotlib)
-   # pip freeze > requirements.txt to view your installed dependencies.
+    pip freeze > requirements.txt 
+   # To view your installed dependencies in the requirements
 # 2. Running the code.
    # For supervised machine learning
    # - run the file(code) in the terminal
