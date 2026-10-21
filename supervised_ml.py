@@ -16,6 +16,7 @@ user_hours = float(input("Enter the number of hours studied: "))
 predicted_score= model.predict([[user_hours]])
 # Displaying the predicted scores
 print(f"Predicted Exam Score: {predicted_score[0][0]:.2f}")
+print(f"Predicted Score Shape: {predicted_score.shape}")
 # Visualizing the results
 plt.scatter(X, Y, color='blue', label='Actual Scores')
 plt.plot(X, model.predict(X), color='red', label='Regression Line')
