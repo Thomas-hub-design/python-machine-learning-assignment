@@ -5,8 +5,14 @@ Thomas Ochieng Osollo
 
   Supervised vs Unsupervised Machine Learning
 
+# PART A : Supervised Machine learning 
+
 ## Description of the supervised learning project.
-   File: supervised_ml.py 
+
+Student Exam Score Prediction using Linear Regression
+   ### File
+
+    supervised_ml.py 
 
  ## Problem: 
  *** A school wants to predict a student's score in examination score from a number of hours they study.***
@@ -25,6 +31,7 @@ Thomas Ochieng Osollo
 | 9 | 90 |
 | 10 | 95 |
 ## Approach
+
  The dataset has 10 students each with hours studied as input and the exam scores as target
 
  A LinearRegression model from the scikit-learn is trained with fit() to learn the relationship between hours and score.
@@ -33,10 +40,17 @@ Thomas Ochieng Osollo
 
   A matplotlib module help with visualization by showing the data points, the fitted regression line and the user prediction.
 
+# PART B : Unsupervised Machine Learning
+
 ## Description of the unsupervised learning project.
 
-  File: unsupervised_ml.py
-  ## Problem:
+Customer Segmentation using KMeans Clustering
+
+### File: 
+
+     unsupervised_ml.py
+
+   ## Problem:
    A supermarket wants to understand the customers' shopping behaviour by grouping them automatically using monthly spending(KES) and monthly visits.
    ### Dataset
 
